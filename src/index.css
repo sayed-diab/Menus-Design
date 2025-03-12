@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Kufidia';
+    src: url('./assets/fonts/Kufidia.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AQEEQSANSPRO';
+    src: url('./assets/fonts/AQEEQSANSPRO.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* COLORS */
+    --bg-main: linear-gradient(to right, #3e1368, #6d35bd);
+    --bg-main-reverse: linear-gradient(#000, #ee0001);
+    --bg-secondary: #fed017;
+    --bg-secondary-reverse: linear-gradient(#ee0001, #000);
+}
+
+#root {
+    font-family: 'AQEEQSANSPRO';
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: var(--bg-main);
+    height: 100vh;
+}
