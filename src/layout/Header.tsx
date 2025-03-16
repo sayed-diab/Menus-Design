@@ -19,7 +19,6 @@ const navigationMenu = [
   { name: 'مطبوعات منوعه', href: '/prints/sublimation-printing' },
   { name: 'تصميم كروت و فلايرات', href: '/prints/card-flair' },
 ];
-
 const App = () => {
   const [open, setOpen] = useState(false);
   const showDrawer = () => setOpen(true);
