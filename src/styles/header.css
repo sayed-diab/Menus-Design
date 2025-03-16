@@ -1,6 +1,5 @@
 .header__ {
     background-color: transparent;
-    margin-block: 24px !important;
 
     a,
     button,
@@ -11,7 +10,26 @@
     a,
     button {
         position: relative;
-        font-size: 20px;
+        font-size: 21px;
+        cursor: pointer;
+    }
+
+    @media (max-width:1280px) {
+
+        a,
+        button {
+            font-size: 18px;
+        }
+
+    }
+
+    @media (max-width:992px) {
+
+        a,
+        button {
+            font-size: 16px;
+        }
+
     }
 
     .logo__ {
@@ -42,7 +60,8 @@
     }
 
     .Menu__>a::before,
-    a[href='/custom-quote']::before {
+    a[href='/custom-quote']::before,
+    .iconBar__::before {
         display: none;
     }
 
@@ -52,25 +71,8 @@
         background-color: var(--bg-secondary);
 
     }
+}
 
-    a[href='/custom-quote'] {
-        background-color: var(--bg-secondary);
-        color: black;
-        border-radius: 8px;
-        padding: 8px 16px;
-
-        -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        -ms-border-radius: 8px;
-        -o-border-radius: 8px;
-    }
-
-    a[href='/custom-quote']:hover {
-        background-color: white;
-        transition: all 0.3s ease-in-out !important;
-        -webkit-transition: all 0.3s ease-in-out !important;
-        -moz-transition: all 0.3s ease-in-out !important;
-        -ms-transition: all 0.3s ease-in-out !important;
-        -o-transition: all 0.3s ease-in-out !important;
-    }
+.ant-drawer-close {
+    margin-left: auto;
 }

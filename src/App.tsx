@@ -20,10 +20,6 @@ const App = () => {
           element={<Banners />}
         />
         <Route
-          path="/card-flair"
-          element={<Cards />}
-        />
-        <Route
           path="/social-media"
           element={<Socials />}
         />
@@ -32,8 +28,12 @@ const App = () => {
           element={<Prints />}
         />
         <Route
-          path="/prints//sublimation-printing"
+          path="/prints/sublimation-printing"
           element={<Sublimation />}
+        />
+        <Route
+          path="/prints/card-flair"
+          element={<Cards />}
         />
         <Route
           path="/about-us"
