@@ -25,7 +25,7 @@ const App = () => {
   const onClose = () => setOpen(false);
 
   return (
-    <header className="header__  px-3 sm:px-4  py-1 sm:py-8 z-50 ">
+    <header className="header__ relative px-3 sm:px-4  py-1 sm:py-8 z-50 ">
       <Disclosure
         as="nav"
         className="mx-auto  px-2 sm:px-0 xl:px-8"
