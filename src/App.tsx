@@ -7,7 +7,7 @@ const App = () => {
   return (
     <>
       <svg
-        className="banr-animtn absolute top-0 right-0 z-0 max-w-4xl"
+        className="banr-animtn absolute top-0 right-0 z-0 max-w-5xl"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 1004.6 757.4"
       >
